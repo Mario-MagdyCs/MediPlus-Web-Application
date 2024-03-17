@@ -1,8 +1,8 @@
-# Clinic Management System 💊🏥
+# Clinic Management System
 
 The Clinic Management System is a web application designed to streamline the management of medicines, conflicts, prescriptions, and schedules in a clinic. The system is built using EJS, Express.js, Node.js, and MySQL.
 
-## Features 🚀
+## Features
 
 1. **Medicine Search and Purchase:**
    - Users can search for medicines and purchase them through the system.
@@ -20,7 +20,7 @@ The Clinic Management System is a web application designed to streamline the man
    - Users can create schedules for their medicines, specifying specific times for medication.
    - The system sends email reminders to users at the scheduled times.
 
-## Technologies Used 💻
+## Technologies Used
 
 - **EJS (Embedded JavaScript):**
   - EJS is used for rendering dynamic content and templates on the client side.
@@ -34,8 +34,40 @@ The Clinic Management System is a web application designed to streamline the man
 - **MySQL:**
   - MySQL is used as the relational database management system to store and retrieve data.
 
-## Getting Started 🛠️
+## Getting Started
 
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/mario20212/MediPlus.git
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   cd MediPlus
+   npm install
+   ```
+
+3. **Database Setup:**
+   - Create a MySQL database and configure the connection details in the `.env` file.
+
+4. **Run the Application:**
+   ```bash
+   node index
+   ```
+
+5. **Access the Application:**
+   - Open a web browser and navigate to `http://localhost:8080` to access the Clinic Management System (MediPlus).
+
+## Contributors
+
+1. [Aboodtt404](https://github.com/Aboodtt404)
+2. [mario20212](https://github.com/mario20212)
+3. [Youssef2022003](https://github.com/Youssef2022003)
+4. [Omarbakary18](https://github.com/Omarbakary18)
+5. [imposterjump](https://github.com/imposterjump)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code as needed.
+
+**Note:** This README is a template, and you should replace the placeholder content with accurate information about your project. Additionally, include sections such as "Deployment," "Testing," and "Contribution Guidelines" as needed.
